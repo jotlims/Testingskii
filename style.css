@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.top-1 {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url("desktop/image-hero.jpg");
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.container1 {
+  width: 100px;
+  border: 1px solid white;
+}
+
+.top-1 h1 {
+  color: white;
+  margin-top: 10rem;
+  font-size: 3rem;
+}
+
+.top {
+  display: flex;
+  font-size: 20px;
+}
+
+.tops {
+  margin-left: 60%;
+  margin-top: 5rem;
+  gap: 22px;
+}
+
+.loop {
+  padding-top: 2rem;
+  font-size: 32px;
+}
+
+.topWrapper {
+  background-color: white;
+  margin: 8rem;
+}
+
+.top-2 {
+  font-family: "Josefin Sans", sans-serif;
+  display: inline-flex;
+  align-items: end;
+}
+
+.top-3 {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.top-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: repeat(4, 1fr);
+  object-fit: cover;
+}
+
+img {
+  margin: 1rem;
+}
+
+.top-4 {
+  font-family: "Alata", sans-serif;
+  width: 100%;
+  height: 150px;
+  background-color: black;
+  color: white;
+}
+
+.first-flex {
+  display: flex;
+  margin: 5rem;
+  justify-content: space-between;
+}
+
+.second-flex {
+  display: flex;
+  margin: 5rem;
+  justify-content: space-between;
+}
