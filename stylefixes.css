@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* NAv */
+.navbar{
+  position: relative;
+}
+.top h4{
+  font-weight: 600 !important;
+}
+
+.menuIcon{
+  /* New Updates */
+  display: none;
+}
+/* Hero BAnnner */
+.top-1 {
+  font-family: "Josefin Sans", sans-serif;
+  background-image: url("desktop/image-hero.jpg");
+  background-color: black;
+  background-size: cover;
+  height: 80vh;
+  color: white;
+  /*  */
+  padding: 0px 100px;
+  position: relative;
+}
+.BannerOverlay{
+  /* New Updates */
+  position: absolute;
+    background: #00000057;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.container1 {
+  /* width: 100px; remove this */
+ height: calc(100% - 104px);
+ display: flex;
+ align-items: center;
+ position: relative;
+
+ /* border: 1px solid blue; */
+
+}
+.h1Wrapper{
+  padding: 30px;
+  border: 1px solid white;
+  /* line-height: 60px; */
+}
+
+.top-1 h1 {
+  color: white;
+  /* margin-top: 10rem; */
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+/* Fies Done here */
+.top {
+  display: flex;
+  /*new Fixes  */
+  justify-content: space-between;
+  align-items: center;
+  /*  */
+  font-size: 20px;
+
+}
+
+.tops {
+  /* margin-left: 60%;
+  margin-top: 5rem; */
+  gap: 22px;
+}
+/*  */
+.loop {
+  padding-top: 2rem;
+  font-size: 32px;
+}
+
+.topWrapper {
+  background-color: white;
+  margin: 8rem;
+}
+
+
+/* New Updates */
+@media only screen and (max-width: 600px) {
+  
+.top-1 h1 {
+
+  font-size: 2rem;
+
+}
+
+.top-1 {
+ 
+  padding: 0px 10px;
+
+}
+.tops {
+  display: none;
+}
+.menuIcon{
+  display: inline-block;
+}
+  
+.h1Wrapper{
+  padding: 20px;
+  line-height: 40px;
+}
+}
