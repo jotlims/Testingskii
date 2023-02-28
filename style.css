@@ -8,33 +8,64 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
+.navbar {
+  position: relative;
+}
+
+.top h4 {
+  font-weight: 600;
+}
+
+.menuIcon {
+  display: none;
+}
+
 .top-1 {
   font-family: "Josefin Sans", sans-serif;
   background-image: url("desktop/image-hero.jpg");
+  background-color: black;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   color: white;
+  padding: 0px 100px;
+  position: relative;
+}
+
+.BannerOverlay {
+  position: absolute;
+  background: #00000057;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .container1 {
-  width: 100px;
+  height: calc(100% -104px);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.h1Wrapper {
+  padding: 30px;
   border: 1px solid white;
 }
 
 .top-1 h1 {
   color: white;
-  margin-top: 10rem;
-  font-size: 3rem;
+  font-weight: 700;
+  font-size: 4rem;
 }
 
 .top {
   display: flex;
   font-size: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .tops {
-  margin-left: 60%;
-  margin-top: 5rem;
   gap: 22px;
 }
 
@@ -92,4 +123,27 @@ img {
   display: flex;
   margin: 5rem;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 678px) {
+  .top-1 h1 {
+    font-size: 2rem;
+  }
+
+  .top-1 {
+    padding: 0px 10px;
+  }
+
+  .tops {
+    display: none;
+  }
+
+  .menuIcon {
+    display: inline-block;
+  }
+
+  .h1Wrapper {
+    padding: 20px;
+    line-height: 40px;
+  }
 }
